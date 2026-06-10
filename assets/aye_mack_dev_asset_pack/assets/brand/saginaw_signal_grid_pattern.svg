@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#070707"/>
+  <g opacity="0.28" stroke="#A7A9AC" stroke-width="1">
+    <path d="M-360 0 L0 900"/><path d="M-270 0 L90 900"/><path d="M-180 0 L180 900"/><path d="M-90 0 L270 900"/><path d="M0 0 L360 900"/><path d="M90 0 L450 900"/><path d="M180 0 L540 900"/><path d="M270 0 L630 900"/><path d="M360 0 L720 900"/><path d="M450 0 L810 900"/><path d="M540 0 L900 900"/><path d="M630 0 L990 900"/><path d="M720 0 L1080 900"/><path d="M810 0 L1170 900"/><path d="M900 0 L1260 900"/><path d="M990 0 L1350 900"/><path d="M1080 0 L1440 900"/><path d="M1170 0 L1530 900"/><path d="M1260 0 L1620 900"/><path d="M1350 0 L1710 900"/>
+    <path d="M0 0 H1440"/><path d="M0 72 H1440"/><path d="M0 144 H1440"/><path d="M0 216 H1440"/><path d="M0 288 H1440"/><path d="M0 360 H1440"/><path d="M0 432 H1440"/><path d="M0 504 H1440"/><path d="M0 576 H1440"/><path d="M0 648 H1440"/><path d="M0 720 H1440"/><path d="M0 792 H1440"/><path d="M0 864 H1440"/>
+  </g>
+  <g opacity="0.8" stroke="#D42121" stroke-width="2">
+    <path d="M0 720 C240 690 360 790 580 740 S960 650 1440 700" fill="none"/>
+    <path d="M0 734 C240 704 360 804 580 754 S960 664 1440 714" fill="none" opacity="0.45"/>
+  </g>
+</svg>

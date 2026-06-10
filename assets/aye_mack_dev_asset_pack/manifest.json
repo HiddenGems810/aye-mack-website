@@ -1,0 +1,86 @@
+{
+  "package": "Aye Mack Developer Asset Pack",
+  "created_by": "ChatGPT",
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 1036
+    },
+    {
+      "path": "assets/brand/epk_cover_concept_1600x2000.png",
+      "size_bytes": 298385
+    },
+    {
+      "path": "assets/brand/hero_placeholder_saginaw_signal_1920x1080.png",
+      "size_bytes": 301320
+    },
+    {
+      "path": "assets/brand/og_card_concept_1200x630.png",
+      "size_bytes": 130614
+    },
+    {
+      "path": "assets/brand/palette_aye_mack_saginaw_signal.png",
+      "size_bytes": 58371
+    },
+    {
+      "path": "assets/brand/release_card_placeholder.png",
+      "size_bytes": 149951
+    },
+    {
+      "path": "assets/brand/saginaw_signal_grid_pattern.svg",
+      "size_bytes": 1309
+    },
+    {
+      "path": "assets/brand/waveform_divider_red.svg",
+      "size_bytes": 3881
+    },
+    {
+      "path": "assets/brand/wordmark_concept_aye_mack.svg",
+      "size_bytes": 892
+    },
+    {
+      "path": "assets/raw_user_supplied/social_intro_screenshot_user_supplied.png",
+      "size_bytes": 8154
+    },
+    {
+      "path": "data/content_model_for_developer.json",
+      "size_bytes": 1120
+    },
+    {
+      "path": "data/music_catalog_seed.json",
+      "size_bytes": 629
+    },
+    {
+      "path": "data/official_links_matrix.csv",
+      "size_bytes": 1204
+    },
+    {
+      "path": "data/official_links_matrix.json",
+      "size_bytes": 1686
+    },
+    {
+      "path": "docs/assets_to_pull_with_permission.csv",
+      "size_bytes": 810
+    },
+    {
+      "path": "docs/client_asset_request_checklist.md",
+      "size_bytes": 799
+    },
+    {
+      "path": "docs/copyright_and_usage_notes.md",
+      "size_bytes": 650
+    },
+    {
+      "path": "docs/developer_handoff.md",
+      "size_bytes": 1726
+    },
+    {
+      "path": "docs/research_summary.md",
+      "size_bytes": 907
+    },
+    {
+      "path": "docs/seo_keywords.txt",
+      "size_bytes": 296
+    }
+  ]
+}

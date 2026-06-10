@@ -1,0 +1,44 @@
+[
+  {
+    "platform": "Facebook Music Page",
+    "handle": "Aye Mack Music / @AdranMack",
+    "url": "https://www.facebook.com/AdranMack/",
+    "notes": "Public page result lists IG @aye_mack1k, Twitter @ayemack1k, YouTube Aye Mack1k; likes/activity visible in search result."
+  },
+  {
+    "platform": "Facebook Profile Provided",
+    "handle": "aye.mack.720377",
+    "url": "https://www.facebook.com/aye.mack.720377",
+    "notes": "User-provided profile link. Confirm whether to link this or the music page as canonical."
+  },
+  {
+    "platform": "Instagram",
+    "handle": "@aye_mack1k",
+    "url": "https://www.instagram.com/aye_mack1k/",
+    "notes": "Public result lists bookings/features email: macknmusicham@gmail.com. Confirm before publishing."
+  },
+  {
+    "platform": "YouTube",
+    "handle": "Aye Mack1k / @ayemack1k806",
+    "url": "https://www.youtube.com/channel/UC04YFoilz2VBvLnk1QXFGhA",
+    "notes": "Use lazy-loaded video cards, not full embeds on initial page load."
+  },
+  {
+    "platform": "Apple Music",
+    "handle": "Aye Mack",
+    "url": "https://music.apple.com/us/artist/aye-mack/1530997764",
+    "notes": "Public listing includes latest release Saginaw United - Single and catalog."
+  },
+  {
+    "platform": "UnitedMasters",
+    "handle": "Aye Mack",
+    "url": "https://unitedmasters.com/a/aye-mack",
+    "notes": "Link hub / music distribution page. Verify whether active and preferred."
+  },
+  {
+    "platform": "ShoutoutLA Press",
+    "handle": "Meet Aye Mack | Music Artist",
+    "url": "https://shoutoutla.com/meet-aye-mack-music-artist/",
+    "notes": "Use for About/EPK credibility and bio foundation; image credit ShotByJuma noted by source."
+  }
+]

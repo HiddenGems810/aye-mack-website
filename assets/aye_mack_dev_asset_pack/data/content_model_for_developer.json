@@ -1,0 +1,77 @@
+{
+  "Release": {
+    "fields": [
+      "id",
+      "title",
+      "type",
+      "releaseDate",
+      "coverArtUrl",
+      "spotifyUrl",
+      "appleMusicUrl",
+      "youtubeUrl",
+      "featured",
+      "description"
+    ]
+  },
+  "Video": {
+    "fields": [
+      "id",
+      "title",
+      "youtubeId",
+      "thumbnailUrl",
+      "releaseDate",
+      "featured",
+      "description"
+    ]
+  },
+  "SocialLink": {
+    "fields": [
+      "platform",
+      "handle",
+      "url",
+      "priority",
+      "isCanonical"
+    ]
+  },
+  "PressItem": {
+    "fields": [
+      "title",
+      "publisher",
+      "url",
+      "date",
+      "quote",
+      "thumbnailUrl"
+    ]
+  },
+  "BookingInquiry": {
+    "fields": [
+      "name",
+      "email",
+      "phone",
+      "inquiryType",
+      "budgetRange",
+      "dateNeeded",
+      "message",
+      "referenceLinks"
+    ]
+  },
+  "GalleryImage": {
+    "fields": [
+      "src",
+      "alt",
+      "credit",
+      "usageRights",
+      "category"
+    ]
+  },
+  "Event": {
+    "fields": [
+      "title",
+      "date",
+      "venue",
+      "city",
+      "ticketUrl",
+      "status"
+    ]
+  }
+}
