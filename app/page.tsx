@@ -114,28 +114,38 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. The Story Teaser - Cinematic */}
-      <section className="py-40 relative overflow-hidden">
-        {/* Cinematic Edge-to-Edge Background */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center opacity-40 grayscale hover:grayscale-0 transition-all duration-[2000ms] scale-105"
-          style={{ backgroundImage: "url('/aye_mack_artist.jpg')", backgroundPosition: "top center" }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent" />
-
-        <div className="container mx-auto px-4 relative z-10 max-w-5xl">
-          <div className="max-w-2xl">
-            <h2 className="font-display text-5xl md:text-7xl tracking-tighter text-[var(--color-bone-white)] uppercase mb-8 leading-none">
-              This ain't no industry gimmick.
-            </h2>
-            <div className="w-16 h-1 bg-[var(--color-saginaw-red)] mb-8" />
-            <p className="text-[var(--color-concrete-gray)] md:text-xl mb-12 leading-relaxed font-light">
-              This is real life documented. From the Saginaw streets to the booth, every track is pure pressure. Built off real life, not a character.
-            </p>
-            <Button variant="outline" size="lg" className="h-14 px-10 border-[var(--color-bone-white)] text-[var(--color-bone-white)] hover:bg-[var(--color-bone-white)] hover:text-black transition-all font-display tracking-widest uppercase" asChild>
-              <Link href="/story">Read The Story</Link>
-            </Button>
+      {/* 4. The Story Teaser - Split Layout */}
+      <section className="py-24 lg:py-32 bg-[var(--color-ink-black)] relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-[var(--color-graphite)]/10 to-black pointer-events-none" />
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+            {/* Text Side (Left) */}
+            <div className="w-full lg:w-1/2">
+              <h2 className="font-display text-5xl md:text-7xl tracking-tighter text-[var(--color-bone-white)] uppercase mb-8 leading-none drop-shadow-lg">
+                This ain't no industry gimmick.
+              </h2>
+              <div className="w-16 h-1 bg-[var(--color-saginaw-red)] mb-8 shadow-[0_0_10px_var(--color-saginaw-red)]" />
+              <p className="text-[var(--color-concrete-gray)] md:text-xl mb-12 leading-relaxed font-light">
+                This is real life documented. From the Saginaw streets to the booth, every track is pure pressure. Built off real life, not a character.
+              </p>
+              <Button variant="outline" size="lg" className="h-14 px-10 border-[var(--color-bone-white)] text-[var(--color-bone-white)] hover:bg-white hover:text-black transition-all font-display tracking-widest uppercase shadow-[0_0_15px_rgba(255,255,255,0.1)]" asChild>
+                <Link href="/story">Read The Story</Link>
+              </Button>
+            </div>
+            
+            {/* Image Side (Right) */}
+            <div className="w-full lg:w-1/2 relative">
+              <div className="relative aspect-[4/5] w-full max-w-lg mx-auto lg:ml-auto overflow-hidden rounded-sm shadow-[0_20px_50px_rgba(0,0,0,0.6)] border border-[var(--color-concrete-gray)]/10 group">
+                <Image 
+                  src="/aye_mack_artist.jpg" 
+                  alt="Aye Mack"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-[2000ms]"
+                />
+                {/* Inner shadow/vignette */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
