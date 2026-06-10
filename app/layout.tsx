@@ -19,10 +19,31 @@ export const metadata: Metadata = {
   title: "Aye Mack | Official Artist Website",
   description: "Official site for music, videos, booking, features, and the latest from Aye Mack. Saginaw pressure, real life music.",
   keywords: ["Aye Mack", "Aye Mack Music", "Aye Mack1k", "Aye Mack rapper", "Aye Mack Saginaw", "Saginaw United", "booking", "features"],
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "Aye Mack | Official Artist Website",
     description: "Saginaw pressure. Real life music.",
     type: "website",
+    url: "https://ayemack.com",
+    siteName: "Aye Mack Official",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Aye Mack - Saginaw Pressure",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Aye Mack | Official Artist Website",
+    description: "Saginaw pressure. Real life music.",
+    images: ["/og-image.png"],
   },
 };
 
