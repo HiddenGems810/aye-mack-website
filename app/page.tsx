@@ -19,7 +19,7 @@ export default function Home() {
             playsInline
             className="absolute w-full h-full object-cover opacity-60 scale-105"
           >
-            <source src="/hero-bg.mp4#t=20" type="video/mp4" />
+            <source src="/hero-bg.mp4#t=30" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black z-10" />
         </div>
